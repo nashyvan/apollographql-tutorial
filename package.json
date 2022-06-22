@@ -1,0 +1,20 @@
+{
+  "name": "apollographql-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": "https://github.com/yariknashivan/apollographql-tutorial.git",
+  "author": "yariknashivan <yarik.nashivan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^3.9.0",
+    "graphql": "^16.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "nodemon": "^2.0.16"
+  }
+}
