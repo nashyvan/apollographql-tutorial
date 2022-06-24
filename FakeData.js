@@ -3,20 +3,57 @@ const UserList = [
     id: 1,
     name: 'Nick',
     age: 42,
-    nationality: 'Ukraine',
+    nationality: 'UKRAINE',
+    friends: [
+      {
+        id: 2,
+        name: 'John',
+        age: 24,
+        nationality: 'GERMANY',
+      },
+    ],
   },
   {
     id: 2,
     name: 'John',
     age: 24,
-    nationality: 'Germany',
+    nationality: 'GERMANY',
   },
   {
-    id: 1,
+    id: 3,
     name: 'Mike',
     age: 20,
-    nationality: 'United States',
+    nationality: 'US',
+    friends: [
+      {
+        id: 1,
+        name: 'Nick',
+        age: 42,
+        nationality: 'UKRAINE',
+      },
+    ],
   },
-]
+];
 
-module.exports = { UserList };
+const MovieList = [
+  {
+    id: 1,
+    name: 'Interstellar',
+    yearOfPublication: 2014,
+    isInTheaters: true,
+  },
+  {
+    id: 2,
+    name: 'My favorite movie',
+    yearOfPublication: 2003,
+    isInTheaters: false,
+  },
+  {
+    id: 3,
+    name: 'Viena and the Fantomes',
+    yearOfPublication: 2020,
+    isInTheaters: true,
+  },
+];
+
+module.exports = { UserList, MovieList };
