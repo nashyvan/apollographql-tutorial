@@ -2,12 +2,14 @@ const UserList = [
   {
     id: 1,
     name: 'Nick',
+    username: 'nick42',
     age: 42,
     nationality: 'UKRAINE',
     friends: [
       {
         id: 2,
         name: 'John',
+        username: 'john24',
         age: 24,
         nationality: 'GERMANY',
       },
@@ -16,18 +18,21 @@ const UserList = [
   {
     id: 2,
     name: 'John',
+    username: 'john24',
     age: 24,
     nationality: 'GERMANY',
   },
   {
     id: 3,
     name: 'Mike',
+    username: 'mike123',
     age: 20,
     nationality: 'US',
     friends: [
       {
         id: 1,
         name: 'Nick',
+        username: 'nick42',
         age: 42,
         nationality: 'UKRAINE',
       },
